@@ -1,0 +1,17 @@
+.card {
+    border: 1px #eb5757 solid;
+    border-radius: 10px;
+}
+
+.card_image {
+    max-width: 100%;
+}
+
+.card_title {
+    background-color: #eb5757;
+    color: #fff;
+}
+
+.card_info {
+    font-size: 12px;
+}
