@@ -1,20 +1,16 @@
-import Card from "../components/Card";
+import Header from "../components/Header";
+import CardList from "../components/CardList";
+import Button from "../components/Button";
 
 export default function Home() {
   return (
     <div>
-      <Card
-        titulo="Ovo com arroz e pepino"
-        imagem="imagemovo.svg"
-        preparo="25 minutos"
-        porcoes="serve 2 pessoas"
-      />
-      <Card
-        titulo="Ovo com bacon"
-        imagem="imagemovo.svg  "
-        preparo="5 mintutos"
-        porcoes="serve 1 pessoa"
-      />
+      <Header/>
+      <CardList/>
+      <Button>Mais informações</Button>
+      <Button danger>Deletar</Button>
+      <Button warning>Alterar</Button>
+      <Button success>Salvar</Button>
     </div>
   )
 }

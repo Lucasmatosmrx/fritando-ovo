@@ -1,0 +1,39 @@
+.button {
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    background-color: rgb(35, 98, 199);
+    color: white;
+}
+
+.button:hover {
+    background-color: rgba(35, 98, 199, 0.8);
+}
+
+.danger {
+    background-color: rgb(196, 29, 29);
+    border-color: rgb(196, 29, 29);
+}
+
+.danger:hover {
+    background-color: rgba(196, 29, 29, 0.8);
+}
+
+.success {
+    background-color: rgb(29, 146, 29);
+    border-color: rgb(29, 146, 29);
+}
+
+.success:hover {
+    background-color: rgba(29, 146, 29, 0.8);
+}
+
+.warning {
+    background-color: rgb(196, 146, 29);
+    border-color: rgb(196, 146, 29);
+    color: #000
+}
+
+.warning:hover {
+    background-color: rgba(196, 146, 29, 0.8);
+}
